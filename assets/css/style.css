@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ff-Bai-Jamjuree);
+}
+
+:root{
+    /* primary color */
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+
+    /* natural color */
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+    /* font family */
+    --ff-Bai-Jamjuree: 'Bai Jamjuree', sans-serif;
+
+    /* fonr waite */
+    --fw-regular: 400;
+    --fw-semi-bold: 600;
+}
+
+body{
+    background-color: transparent;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
