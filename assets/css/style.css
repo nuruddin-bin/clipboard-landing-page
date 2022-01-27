@@ -23,7 +23,7 @@
 }
 
 body{
-    background-color: lightblue;
+    background-color: transparent;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -35,7 +35,7 @@ body{
 /*------------- header -------------*/
 .header{
     width: min(90rem, 100%);
-    background-color: #fff;
+    background-color: transparent;
     background-image: url(../img/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -89,7 +89,7 @@ body{
 
 /*------------- header -------------*/
 .main{
-    background-color: #fff;
+    background-color: transparent;
     width: min(90rem, 100%);
     padding-top: 3rem;
 }
@@ -160,6 +160,7 @@ body{
 
 /*------------- access -------------*/
 .access{
+    background-color: transparent;
     width: 100%;
     padding-top: 4rem;
     background-color: transparent;
@@ -182,6 +183,7 @@ body{
 
 /*------------- supercharge area --------------*/
 .supercharge{
+    background-color: transparent;
     margin-top: 3rem;
     margin-bottom: 5rem;
     width: 100%;
@@ -234,6 +236,7 @@ body{
 
 /*-------------- download ----------------*/
 .download{
+    background-color: transparent;
     width: 100%;
     text-align: center;
     margin-top: 3rem;
@@ -241,6 +244,55 @@ body{
 }
 
 
+/*-------------- footer --------------- */
+.footer{
+    background-color: #f5f6f8;
+    width: min(90rem, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 9rem;
+}
+
+/* footer logo */
+.footer__img-wrapper{
+    width: 13%;
+    height: 100%;
+}
+
+.footer__img{
+    width: 4rem;
+    display: block;
+}
+
+/* fotter links */
+.footer__links-wrapper{
+    width: 35%;
+}
+
+.footer__link{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--Dark-Grayish-Blue);
+    font-weight: var(--fw-regular);
+    transition: .3s;
+
+}
+
+.footer__link:hover{
+    color: var(--Strong-Cyan);
+}
+
+/* fotter social */
+.footer__social{
+    width: 52%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social__icon{
+
+}
 
 
 
