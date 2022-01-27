@@ -75,6 +75,11 @@ body{
     border-radius: 5rem;
     display: inline-block;
     box-shadow: 3px -13px 0px -10px rgba(0,0,0,0.1) inset;
+    transition: .3s;
+}
+
+.header__btn:hover{
+    opacity: .8;
 }
 
 .btn-first{
